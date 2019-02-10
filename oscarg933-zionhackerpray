@@ -1,0 +1,163 @@
+Skip to content
+Your account has been flagged.
+Because of that, your profile is hidden from the public. If you believe this is a mistake, contact support to have your account status reviewed.
+
+coherence arduino
+Repositories0
+Code4K
+Commits6
+Issues30
+Marketplace0
+Topics0
+Wikis3
+Users0
+Language
+
+Sort
+
+Showing 4,378 available code results 
+@Quego
+Quego/Tachymetre – echantillonneur.py
+Showing the top five matches
+Last indexed on Jul 2, 2018
+Python
+		self.ser = serial.Serial('/dev/ttyACM0', 9600)
+		# Indicateur de coherence entre Raspberry et Arduino.
+		coherence = False
+		v1 = 0
+		v2 = 0
+		# Reglage de la synchronisation Raspberry - Arduino.
+		while not coherence:
+			try:
+				# Lecture de deux valeurs : -1 (frequence), -2 (tension)
+@cpmpercussion
+cpmpercussion/LastManToDieSoundtrack – lmtdScript.scd
+Showing the top three matches
+Last indexed on Jun 28, 2018
+SuperCollider
+		"VOX: Virus vs Human".postln;
+		~arduinoSounds = false;
+		~buzzingMotors = true;
+
+		//~sectionDepth[2].postln;
+		~cyberConcCoherence = 1;
+
+
+		// Plays random virus/human voxes, until end of the section.
+		// low coherence cuts vox short,
+@cpmpercussion
+cpmpercussion/LastManToDieSoundtrack – LMTD2010.scd
+Showing the top two matches
+Last indexed on Jun 28, 2018
+SuperCollider
+// todo -- add something to pretend to change coherence density movement in installation mode (i.e., when there's no midi input.).
+// todo -- in installation mode, should choose a random scene depth each time. random from 0-4
+// todo -- forward the arduino messages
+// 28/08/2014 - Updated to eight channel version for Listening Space.
+
+// boot server.
+@changlabneuro
+changlabneuro/brains – example__free_stim_dots.m
+Showing the top two matches
+Last indexed on Sep 20, 2018
+MATLAB
+function example__free_stim_dots()
+
+import brains.arduino.calino.bound_funcs.both_eyes;
+import brains.arduino.calino.bound_funcs.face_top_and_bottom;
+import brains.arduino.calino.bound_funcs.social_control_dots_left;
+@nfagan
+nfagan/brains – example__free_stim_dots.m
+Showing the top three matches
+Last indexed on Sep 25, 2018
+MATLAB
+if ( nargin < 1 ), use_stim_comm = true; end
+
+import brains.arduino.calino.bound_funcs.both_eyes;
+import brains.arduino.calino.bound_funcs.face_top_and_bottom;
+import brains.arduino.calino.bound_funcs.social_control_dots_left;
+
+repadd( 'ShadlenDotsX', true );
+@adamimos
+adamimos/RDK-Task – task.m
+Showing the top four matches
+Last indexed 14 days ago
+MATLAB
+        behavior_params % behavior parameters
+        RDK_arduino % arduino object
+        display % display parameters
+        file_params % filename parameters
+        %% constructor
+        function obj = task(RDK_arduino,num_trials,coherence_difficulty,...
+@nfagan
+nfagan/bfw – pipeline_nf2.m
+Showing the top two matches
+Last indexed 5 days ago
+MATLAB
+  , 'min_duration', 0.03 ...
+);
+
+bfw.make_raw_arduino_fixations( inputs );
+
+%%  aligned + binned aligned samples (using aligned indices)
+  , 'fixations_subdir', 'arduino_fixations' ...
+);
+
+%   formats data consistent with `make_events`
+bfw.make_reformatted_raw_events( inputs );
+@Bioreactor
+Bioreactor/Solar_V4 – BioParams.ino
+Showing the top three matches
+Last indexed on Jul 4, 2018
+C++
+#define ERROR_VALUE  -32768
+
+// Definition of all events to be logged
+#define EVENT_ARDUINO_BOOT           1
+#define EVENT_ARDUINO_SET_SAFE       2
+
+//!!! NAMES TO BE CHANGED FOR COHERENCE !!!//
+@hotpyn
+hotpyn/stripe_demo – seeds.exs
+Showing the top four matches
+Last indexed on Jul 13, 2018
+Elixir
+import Ecto.Query, warn: false
+
+StripeApp.Repo.delete_all StripeApp.Coherence.User
+
+StripeApp.Coherence.User.changeset(%StripeApp.Coherence.User{}, %{name: "Demo User 1", email: "demouser1@example.com", password: "secret", password_confirmation: "secret"})
+|> StripeApp.Repo.insert!
+|> Coherence.Controller.confirm!
+
+Repo.insert! %Book{title: "Python for Arduino", author: "Cool Programmer", image: "https://www.python.org/static/opengraph-icon-200x200.png", price: 8.49, url: "hspython1", visible: true}
+@bachelor-2014
+bachelor-2014/report – bibliography.bib
+Showing the top four matches
+Last indexed on Jun 27, 2018
+TeX
+    url = "https://github.com/bachelor-2014/hardware"
+}
+
+@online{arduino_mega_2560,
+    title = "Arduino Mega 2560",
+    month = "April",
+    year = "2014",
+    url = "http://arduino.cc/en/Main/arduinoBoardMega2560"
+}
+
+@online{gcode,
+    title = "G-code",
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Press h to open a hovercard with more details.
